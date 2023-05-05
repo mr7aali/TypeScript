@@ -1,0 +1,16 @@
+
+const addInMyGfMind = <t>(myInfo: t) => {
+    const girlFriend = "Sabrina Nipa";
+
+    const newData = { ...myInfo, girlFriend };
+    return newData;
+}
+
+
+const myInfo = {
+    name: "Ali",
+    age: 21,
+    salary: 1000
+};
+
+const result5 = addInMyGfMind(myInfo);
